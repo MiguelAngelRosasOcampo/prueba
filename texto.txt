@@ -2,5 +2,5 @@
 2. En este caso cree un archivo y le agregue contenido con "cat > nombre.extensión" (para salir ctrl D)
 3. Después agregué el archivo al staging area con el comando "git add nombre.extensión"
 4. Luego, se hizo el commit con "git commit -m "frase" "
-5. Se creo otra rama con "git branch nombreDeRama" (para ver las ramas con git branch"
+5. Se creo otra rama con "git branch nombreDeRama" (para ver las ramas con git branch)
 
