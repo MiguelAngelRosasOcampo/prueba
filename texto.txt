@@ -3,4 +3,8 @@
 3. Después agregué el archivo al staging area con el comando "git add nombre.extensión"
 4. Luego, se hizo el commit con "git commit -m "frase" "
 5. Se creo otra rama con "git branch nombreDeRama" (ver ramas con git branch/cambiar checkout nombreDeRama)
-6. 
+6. Se editó la rama master (la principal) y se miró su contenido y luego cambiamos a rama1 y se miró su contenido.
+7. La rama master tenía más contenido, porque fue la que se editó y la rama1 se fusionó con "git merge nombreDeRama" en este caso master.
+8. Luego enlazar el repositorio local con el remoto mediante "git remote add origin link" (con "git remote -v" se ven los enlazados)
+9. Siguiendo con el repo remoto, se forzó con "git pull origin master --allow-unrelated-histories"
+10. una vez que se bajó lo que se tenía en el repo remoto, se subió con "git push origin master"
